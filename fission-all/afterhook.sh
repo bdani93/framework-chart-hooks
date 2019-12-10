@@ -2,3 +2,4 @@ fission environment create --name go --image fission/go-env:1.1.0 --builder fiss
 fission environment create --name java --image fission/jvm-env --builder fission/jvm-builder
 fission environment create --name nodejs --image fission/node-env
 fission environment create --name python --image fission/python-env
+fission environment create --name python-multi --image fission/python-env --version 2
